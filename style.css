@@ -51,3 +51,40 @@ body {
   z-index: -1;
   transition: 0.4s ease;
 }
+
+.circle {
+  background-color: #fff;
+  color: #9999;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 30px solid #e0e0e0;
+  transition: 0.4s ease;
+}
+
+.circle:active {
+  border-color: #3498db;
+}
+.btn {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s ease;
+  margin: 8px;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.btn:focus {
+  outline: none;
+}
+.btn:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
